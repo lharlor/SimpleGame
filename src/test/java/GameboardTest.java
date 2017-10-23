@@ -1,3 +1,5 @@
+import junit.framework.TestCase;
+
 public class GameboardTest extends TestCase
 {
     public GameboardTest(String name) {
