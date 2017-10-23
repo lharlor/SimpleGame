@@ -1,10 +1,14 @@
+import java.util.ArrayList;
+
 public class GameBoard
 {
-    public void addCell(Cell cell) {
+    ArrayList cells = new ArrayList();
 
+    public void addCell(Cell cell) {
+        cells.add(cell);
     }
 
     public int getCellNumber() {
-        return 0;
+        return cells.size();
     }
 }
