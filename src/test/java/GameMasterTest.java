@@ -54,7 +54,7 @@ public class GameMasterTest extends TestCase {
     }
 
     /**
-     * Test method that checks if when the player moves back to their start.
+     * Test method that checks if when the player moves back to the go cell their start.
      */
     public void testMovePlayerCycle() {
         master = GameMaster.instance();
